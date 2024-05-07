@@ -12,6 +12,10 @@ rssLimit = 10
 copyright = "Rohan"
 enableEmoji = true
 
+[params.meta]
+  favicon = true
+  svg = true
+  
 #[services]
 #  [services.disqus]
 #    shortname = ''
@@ -57,7 +61,7 @@ expiryDate = ["expiryDate"]
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # description = ""
-  # images = [""]
+  # images = ["/static/green-icon.png/"]
   themeColor = "#3A433B"
 
   homeSubtitle = "i like to code things"
