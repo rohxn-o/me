@@ -2,18 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Rohan</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:1313/me/tags/</link>
     <description>Recent content in Tags on Rohan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>CHANGE ME</copyright>
     <lastBuildDate>Tue, 07 May 2024 12:51:06 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Untagged</title>
-      <link>http://localhost:1313/tags/untagged/</link>
+      <title>Personal</title>
+      <link>http://localhost:1313/me/tags/personal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/untagged/</guid>
+      <guid>http://localhost:1313/me/tags/personal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Project</title>
+      <link>http://localhost:1313/me/tags/project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/me/tags/project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Website</title>
+      <link>http://localhost:1313/me/tags/website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/me/tags/website/</guid>
       <description></description>
     </item>
   </channel>

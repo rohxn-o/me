@@ -5,7 +5,9 @@ draft: false
 toc: false
 images:
 tags:
-  - untagged
+  - project
+  - website
+  - personal
 ---
 
 Hello
