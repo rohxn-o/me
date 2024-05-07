@@ -1,7 +1,7 @@
 baseURL = 'https://rohxn-o.github.io/me/'
 languageCode = 'en-us'
 title = 'Rohan'
-theme = 'hermit-v2'
+theme = 'hermit-V2-main'
 
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
