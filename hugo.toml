@@ -100,7 +100,7 @@ expiryDate = ["expiryDate"]
 [menu]
 
   [[menu.main]]
-    name = "projects"
+    name = "posts"
     url = "posts/"
     weight = 20
 
