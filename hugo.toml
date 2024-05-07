@@ -56,11 +56,11 @@ expiryDate = ["expiryDate"]
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
-  description = "test"
+  # description = ""
   # images = [""]
   themeColor = "#3A433B"
 
-  homeSubtitle = "test2"
+  homeSubtitle = "i like to code things"
   #footerCopyright = "CHANGE ME FOOTER COPYRIGHT"
   # bgImg = ""
   # gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
@@ -73,8 +73,8 @@ expiryDate = ["expiryDate"]
   homeSubtitlePrinter = true
   scrollToTop = true 
   global_mathjax = false
-  readTime = false
-  readTimeSeparator = "CHANGE ME READ TIME"
+  # readTime = true
+  # readTimeSeparator = "CHANGE ME READ TIME"
   # legacyLayout = false
   shareSocial = true
   # googleTagManager = "GTM-XXXXXXXX"
