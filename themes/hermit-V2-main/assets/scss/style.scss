@@ -335,6 +335,7 @@ table {
   font-size: .9em;
   margin-bottom: 96px;
   margin-top: 64px;
+  @include dimmed;
 
   p {
     margin: 0;
