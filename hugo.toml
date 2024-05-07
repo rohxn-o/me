@@ -9,7 +9,7 @@ pygmentsUseClasses  = true
 
 rssLimit = 10
 
-copyright = "CHANGE ME"
+copyright = "Rohan"
 enableEmoji = true
 
 #[services]
@@ -56,11 +56,11 @@ expiryDate = ["expiryDate"]
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
-  # description = "CHANGE ME SITE DESCRIPTION"
+  description = "test"
   # images = [""]
   themeColor = "#3A433B"
 
-  #homeSubtitle = "CHANGE ME HOME SUBTITLE"
+  homeSubtitle = "test2"
   #footerCopyright = "CHANGE ME FOOTER COPYRIGHT"
   # bgImg = ""
   # gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
@@ -73,7 +73,7 @@ expiryDate = ["expiryDate"]
   homeSubtitlePrinter = true
   scrollToTop = true 
   global_mathjax = false
-  readTime = true
+  readTime = false
   readTimeSeparator = "CHANGE ME READ TIME"
   # legacyLayout = false
   shareSocial = true
