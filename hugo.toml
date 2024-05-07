@@ -15,7 +15,7 @@ enableEmoji = true
 [params.meta]
   favicon = true
   svg = true
-  
+
 #[services]
 #  [services.disqus]
 #    shortname = ''
@@ -100,6 +100,10 @@ expiryDate = ["expiryDate"]
   [[params.socialLinks]]
     name = "github"
     url = "https://github.com/rohxn-o"
+
+  [[params.socialLinks]]
+    name = "youtube"
+    url = "https://www.youtube.com/@rohxnz"
 
   [[params.socialLinks]]
     name = "spotify"
