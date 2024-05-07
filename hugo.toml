@@ -1,0 +1,110 @@
+baseURL = 'https://rohan.github.io/'
+languageCode = 'en-us'
+title = 'Rohan'
+theme = 'hermit-v2'
+
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+#hasCJKLanguage = true
+
+rssLimit = 10
+
+copyright = "CHANGE ME"
+enableEmoji = true
+
+#[services]
+#  [services.disqus]
+#    shortname = ''
+#  [services.googleAnalytics]
+#    id = ''
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", ":git", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]
+
+
+[params.author]
+  name = "Rohan"
+  about = ""
+
+[blackfriday]
+  # hrefTargetBlank = true
+  # noreferrerLinks = true
+  # nofollowLinks = true
+
+[taxonomies]
+  tag = "tags"
+  # Categories are disabled by default.
+  # category = "categories"
+
+# Enable to get proper Mathjax support
+#[markup]
+#  [markup.goldmark]
+#    [markup.goldmark.extensions]
+#      [markup.goldmark.extensions.passthrough]
+#        enable = true
+#        [markup.goldmark.extensions.passthrough.delimiters]
+#          block = [['\[', '\]'], ['$$', '$$']]
+#          inline = [['\(', '\)']]
+
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # description = "CHANGE ME SITE DESCRIPTION"
+  # images = [""]
+  themeColor = "#536fb0"
+
+  #homeSubtitle = "CHANGE ME HOME SUBTITLE"
+  #footerCopyright = "CHANGE ME FOOTER COPYRIGHT"
+  # bgImg = ""
+  # gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
+
+  justifyContent = false
+
+  relatedPosts = true
+  code_copy_button = true
+
+  homeSubtitlePrinter = true
+  scrollToTop = true 
+  global_mathjax = false
+  readTime = true
+  readTimeSeparator = "CHANGE ME READ TIME"
+  # legacyLayout = false
+  shareSocial = true
+  # googleTagManager = "GTM-XXXXXXXX"
+  # tagSymbol = "#"
+  # categorySymbol = "⊲"
+  # pinned = "Pinned Posts"
+  # pinnedSVGname = "pin"
+  # descriptionInPosts= true
+  # initialPublish = "Initally Posted on: "
+  
+  [[params.socialLinks]]
+    name = "discord"
+    url = "https://discord.gg/KqwxRYkp8N"
+
+  [[params.socialLinks]]
+    name = "x"
+    url = "https://twitter.com/rohxnz"
+
+  [[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/rohxn-o"
+
+[menu]
+
+  [[menu.main]]
+    name = "projects"
+    url = "posts/"
+    weight = 20
+
+  [[menu.main]]
+    name = "about"
+    url = "about/"
+    weight = 10
