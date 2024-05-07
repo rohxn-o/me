@@ -97,6 +97,10 @@ expiryDate = ["expiryDate"]
     name = "github"
     url = "https://github.com/rohxn-o"
 
+  [[params.socialLinks]]
+    name = "spotify"
+    url = "https://open.spotify.com/user/qmj1u2iguej2kwqgr1lf8ixr4"
+
 [menu]
 
   [[menu.main]]
