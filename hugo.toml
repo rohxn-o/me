@@ -61,10 +61,10 @@ expiryDate = ["expiryDate"]
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # description = ""
-  # images = ["/static/green-icon.png/"]
+  # images = [""]
   themeColor = "#3A433B"
 
-  homeSubtitle = "i like to code things"
+  homeSubtitle = "i like to code random things"
   #footerCopyright = "CHANGE ME FOOTER COPYRIGHT"
   # bgImg = ""
   # gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
