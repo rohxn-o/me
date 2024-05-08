@@ -91,7 +91,7 @@ expiryDate = ["expiryDate"]
   
   [[params.socialLinks]]
     name = "discord"
-    url = "https://discord.gg/KqwxRYkp8N"
+    url = "discord://-/users/261208333279690752"
 
   [[params.socialLinks]]
     name = "x"
