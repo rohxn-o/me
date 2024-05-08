@@ -2,7 +2,6 @@
 	&copy; {{ now.Format "2006" }} <a href="{{ .Site.BaseURL }}">{{ .Site.Params.author.name }}</a> &#183; {{ .Site.Params.footerCopyright | safeHTML }}
 	{{- with .OutputFormats.Get "RSS" }}
 	&#10084;	
-	&#183; <a href="{{ "index.xml" | absLangURL }}" target="_blank" title="rss">{{- partial "svg.html" (dict "context" . "name" "rss") -}} </a>
-	<a> RSS Feed </a> 
+	&#183; <a href="{{ "index.xml" | absLangURL }}" target="_blank" title="rss">{{- partial "svg.html" (dict "context" . "name" "rss") -}} &#160;RSS Feed</a>
 	{{- end -}}
 </p>
