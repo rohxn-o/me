@@ -89,9 +89,9 @@ expiryDate = ["expiryDate"]
   # descriptionInPosts= true
   # initialPublish = "Initally Posted on: "
   
-  [[params.socialLinks]]
-    name = "discord"
-    url = "discord://-/users/261208333279690752"
+#  [[params.socialLinks]]
+#    name = "discord"
+#    url = "discord://-/users/261208333279690752"
 
   [[params.socialLinks]]
     name = "x"
